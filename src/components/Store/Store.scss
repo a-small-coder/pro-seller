@@ -1,0 +1,24 @@
+.store{
+    background-color: #ddd;
+    margin: 20px 20px;
+
+    &__category{
+       margin: 0;
+    }
+}
+
+.category{
+    background: #000;
+    border-top: 8px solid #265274;
+    padding: 0;
+
+    &__title{
+        color: #b5b5b5;
+        font: 28px Century Gothic Bold;
+        text-transform: uppercase;
+        border-bottom: 1px solid #265274;
+        padding-top: 10px;
+        width: 96%;
+        margin: 0 auto;
+    }
+}

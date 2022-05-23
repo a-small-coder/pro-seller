@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+
+
+.heading{
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+
+    &__title{
+
+        &._dote::after{
+            content: '.';
+            color: $mainControl;
+        }
+    }
+}

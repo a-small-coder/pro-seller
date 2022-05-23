@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Header from './components/Header/Header';
+
+import './styles/styles.scss'
+// import NoMatchPage from './components/NoMatchPage/NoMatchPage';
+import { useState } from 'react';
+import Store from './components/Store/Store';
 
 function App() {
+  const [isUserLogin, setIsUserLogin] = useState(true)
+
+  const setAuth = (data) =>{
+    setIsUserLogin(data)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <div className='wrapper'>
+      <Header auth={isUserLogin}/>
+      <Routes>
+        <Route path='/store' element={<Store auth={isUserLogin} />}></Route>
+        {/* <Route path='*' element={<NoMatchPage/>}></Route> */}
+      </Routes>
     </div>
+      
+      
+    </BrowserRouter>
   );
 }
 
 export default App;
+
