@@ -5,6 +5,7 @@ import './styles/styles.scss'
 // import NoMatchPage from './components/NoMatchPage/NoMatchPage';
 import { useState } from 'react';
 import Store from './components/Store/Store';
+import Cart from './components/Cart/Cart';
 
 function App() {
   const [isUserLogin, setIsUserLogin] = useState(true)
@@ -17,7 +18,10 @@ function App() {
     <div className='wrapper'>
       <Header auth={isUserLogin}/>
       <Routes>
-        <Route path='/store' element={<Store auth={isUserLogin} />}></Route>
+        <Route path='/' element={<Store />}></Route>
+        <Route path='/category/:id' element={<Store />}></Route>
+        <Route path='/category/:id/subcategory/:id' element={<Store/>}></Route>
+        <Route path='/cart' element={<Cart />}></Route>
         {/* <Route path='*' element={<NoMatchPage/>}></Route> */}
       </Routes>
     </div>

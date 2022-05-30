@@ -20,35 +20,11 @@ function Header(props) {
     }
     
 
-    const data = [        
-        {
-            id: 1,
-            title: "магазин",
-            link: "/store"
-        },
-        {
-            id: 2,
-            title: "Вход",
-            link: "/auth"
-        },
+    const data = [
     ]
 
     if (props.auth){
-        data[1] = {
-            id: 2,
-            title: "корзина",
-            link: "/cart"
-        }
-        // data.push({
-        //     id: 3,
-        //     title: "выйти",
-        //     link: "/exit"
-        // })
-        data.push({
-            id: 4,
-            title: "выйти",
-            link: "/exit"
-        })
+        
     }
 
     const menuItems = data.map( el => (
@@ -63,7 +39,7 @@ function Header(props) {
         <div className='header'>
             <div className='header__container'>
                 <div className="header__logo">
-                    <Link to='/store'>
+                    <Link to='/'>
                         <img src={logo} alt='logo'/>
                     </Link>
                     
@@ -73,23 +49,9 @@ function Header(props) {
                     {menuItems}
                 </div>
 
-                <div className='header__cart cart'>
+                <div className='header__cart cart-header'>
                     <img src={cart_img} alt='cart'/>
                 </div>
-
-                {/* <div className={mobileMenuClass}>
-
-                    <div className='icon-menu' ref={burgerRef} onClick={burgerClick}>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>  
-
-                    <div className={mobileMenuBodyClass}>
-                        {mobilemenuItems}                        
-                    </div>
-
-                </div> */}
 
                 
                  

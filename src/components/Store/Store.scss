@@ -1,9 +1,12 @@
 .store{
     background-color: #ddd;
-    margin: 20px 20px;
+    margin: 20px 5px;
 
-    &__category{
-       margin: 0;
+    &__categories{
+       
+        .card-item{
+            margin-bottom: 20px;
+        }
     }
 }
 

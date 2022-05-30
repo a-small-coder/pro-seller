@@ -127,9 +127,6 @@ font-family: "Gilroy";
 -ms-text-size-adjust: 100%;
 -moz-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
-background-image: url('../image/bg.jpg');
-background-size: cover;
-background-attachment: fixed;
 }
 
 input,
@@ -182,6 +179,7 @@ vertical-align: top;
 
 body {
     color: $textClr;
+	background-color: rgba(221,220,219,1);
 }
 
 body._lock {
