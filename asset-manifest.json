@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/pro-seller/static/css/main.fd889b1d.css",
-    "main.js": "/pro-seller/static/js/main.2f71f9c9.js",
-    "static/js/377.167fc23c.chunk.js": "/pro-seller/static/js/377.167fc23c.chunk.js",
-    "static/media/bg.jpg": "/pro-seller/static/media/bg.af8354413f860d10a0ed.jpg",
-    "static/media/Logo44.png": "/pro-seller/static/media/Logo44.8962dcc2ccece87c058b.png",
-    "static/media/1640779325-228x228.png": "/pro-seller/static/media/1640779325-228x228.ce1f49a3cd7b992c58c3.png",
-    "static/media/icomoon.woff": "/pro-seller/static/media/icomoon.5a29a7b02e62173ae5d8.woff",
-    "static/media/icomoon.ttf": "/pro-seller/static/media/icomoon.bafcd004784f7ad99484.ttf",
-    "index.html": "/pro-seller/index.html",
-    "main.fd889b1d.css.map": "/pro-seller/static/css/main.fd889b1d.css.map",
-    "main.2f71f9c9.js.map": "/pro-seller/static/js/main.2f71f9c9.js.map",
-    "377.167fc23c.chunk.js.map": "/pro-seller/static/js/377.167fc23c.chunk.js.map"
+    "main.css": "/a-small-coder/pro-seller.git/static/css/main.30bb93a0.css",
+    "main.js": "/a-small-coder/pro-seller.git/static/js/main.6b247dac.js",
+    "static/js/377.167fc23c.chunk.js": "/a-small-coder/pro-seller.git/static/js/377.167fc23c.chunk.js",
+    "static/media/bg.jpg": "/a-small-coder/pro-seller.git/static/media/bg.af8354413f860d10a0ed.jpg",
+    "static/media/Logo44.png": "/a-small-coder/pro-seller.git/static/media/Logo44.8962dcc2ccece87c058b.png",
+    "static/media/product_3.png": "/a-small-coder/pro-seller.git/static/media/product_3.5000a8b7b759e656f467.png",
+    "static/media/product_2.png": "/a-small-coder/pro-seller.git/static/media/product_2.9ddd9465773f73d478af.png",
+    "static/media/product_4.png": "/a-small-coder/pro-seller.git/static/media/product_4.fbd87721dd34990279ff.png",
+    "static/media/product_1.png": "/a-small-coder/pro-seller.git/static/media/product_1.5bd2ce9bf98339c95c26.png",
+    "static/media/icomoon.woff": "/a-small-coder/pro-seller.git/static/media/icomoon.5a29a7b02e62173ae5d8.woff",
+    "static/media/icomoon.ttf": "/a-small-coder/pro-seller.git/static/media/icomoon.bafcd004784f7ad99484.ttf",
+    "index.html": "/a-small-coder/pro-seller.git/index.html",
+    "main.30bb93a0.css.map": "/a-small-coder/pro-seller.git/static/css/main.30bb93a0.css.map",
+    "main.6b247dac.js.map": "/a-small-coder/pro-seller.git/static/js/main.6b247dac.js.map",
+    "377.167fc23c.chunk.js.map": "/a-small-coder/pro-seller.git/static/js/377.167fc23c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd889b1d.css",
-    "static/js/main.2f71f9c9.js"
+    "static/css/main.30bb93a0.css",
+    "static/js/main.6b247dac.js"
   ]
 }
